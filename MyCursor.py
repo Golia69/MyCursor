@@ -213,7 +213,7 @@ def unregister():
     for cls in classes:
         unregister_class(cls)
 
-    bpy.types.VIEW3D_MT_object.remove(draw_item)
+  #  bpy.types.VIEW3D_MT_object.remove(draw_item)
     
     
 
